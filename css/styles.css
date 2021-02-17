@@ -1,0 +1,381 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: url("/home/fernando/Desktop/Vfinal/img/header.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.fuente-imperial{
+  font-size: 80px;
+}
+.bg-imperial{
+    background: #1f3845;
+}
+
+.bg-imperial2{
+  background: #1B3A4A;
+  opacity: 0.9;
+}
+.bg-imperial-menu{
+  background-color: #183F53;
+  padding-bottom: 60px;
+}
+
+.btn-resp{
+  display: block;
+}
+
+.blanco{
+  color: #ffffff;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+
+a:link {
+  color: #ffffff;
+}
+
+a:visited {
+  color: #ffffff;
+}
+
+a:focus {
+  color: #ffffff;
+}
+
+a:hover {
+  color: #ffffff;
+}
+
+a:active {
+  color: #ffffff;
+}
+
+.btn-imperial { 
+  color: #FFFFFF; 
+  background-color: #2C6C8C; 
+  border-color: #000000; 
+} 
+ 
+.btn-imperial:hover, 
+.btn-imperial:focus, 
+.btn-imperial:active, 
+.btn-imperial.active, 
+.open .dropdown-toggle.btn-imperial { 
+  color: #FFFFFF; 
+  background-color: #2c6c8c; 
+  border-color: #000000; 
+} 
+ 
+.btn-imperial:active, 
+.btn-imperial.active, 
+.open .dropdown-toggle.btn-imperial { 
+  background-image: none; 
+} 
+ 
+.btn-imperial.disabled, 
+.btn-imperial[disabled], 
+fieldset[disabled] .btn-imperial, 
+.btn-imperial.disabled:hover, 
+.btn-imperial[disabled]:hover, 
+fieldset[disabled] .btn-imperial:hover, 
+.btn-imperial.disabled:focus, 
+.btn-imperial[disabled]:focus, 
+fieldset[disabled] .btn-imperial:focus, 
+.btn-imperial.disabled:active, 
+.btn-imperial[disabled]:active, 
+fieldset[disabled] .btn-imperial:active, 
+.btn-imperial.disabled.active, 
+.btn-imperial[disabled].active, 
+fieldset[disabled] .btn-imperial.active { 
+  background-color: #2C6C8C; 
+  border-color: #000000; 
+} 
+ 
+.btn-imperial .badge { 
+  color: #2C6C8C; 
+  background-color: #FFFFFF; 
+}
+
+@media (max-width: 992px) {
+  img{
+    width: 100%;
+    height: 100%;
+  }
+  .fuente-imperial{
+    font-size: 60px;
+  }
+  .masthead {
+    height: 40vh;
+    min-height: 300px;
+    background-image: url("/home/fernando/Desktop/Vfinal/img/header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+    height: 100%;
+  }
+  .fuente-imperial{
+    font-size: 40px;
+  }
+  .masthead {
+    height: 40vh;
+    min-height: 300px;
+    background-image: url("/home/fernando/Desktop/Vfinal/img/header.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+}
+
+
+#instagram {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.redes-sociales {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  margin-top: 70px;
+  margin-bottom: 60px;
+  background-color: #1f3845;
+  height: 300px;
+}
+
+.imagen {
+  width: 45%;
+  height: 430px;
+  margin-top: -40px;
+}
+
+.img-paisaje {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center right;
+}
+
+.informacion {
+  display: flex;
+  width: 50%;
+  height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+.informacion h1,
+.informacion h2,
+.informacion span {
+  color: white;
+  line-height: 38px;
+}
+
+.informacion h1 {
+  font-size: 38px;
+  letter-spacing: 8px;
+}
+
+.informacion h2 {
+  font-size: 15px;
+}
+
+.informacion span {
+  font-size: 15px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.icon-ir {
+  width: 30px;
+  height: 30px;
+  transform: translate(138px, 10px);
+}
+
+.iconos {
+  display: flex;
+  justify-content: flex-end;
+  height: 60px;
+  margin-top: -40px;
+}
+
+.icon-contenido {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.fondo-icon-flecha {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+  background-color: #1f3b46;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.fondo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 5px;
+  border-radius: 10px;
+  width: 55px;
+  background-color: #9c9c9f;
+}
+
+.icon {
+  width: 20px;
+  height: 20px;
+  margin: 5px 0px;
+}
+
+/*TAMAÑO TABLET*/
+
+@media (max-width: 768px) {
+  .redes-sociales {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .imagen {
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    text-align: center;
+  }
+
+  .img-paisaje {
+    width: 85%;
+    height: 400px;
+  }
+
+  .informacion {
+    width: 100%;
+    height: 200px;
+  }
+
+  .informacion h1,
+  .informacion h2 {
+    text-align: center;
+  }
+
+  .iconos {
+    justify-content: center;
+  }
+
+  .icon-contenido {
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .icon {
+    width: 22px;
+    height: 22px;
+    margin: 6px 0px;
+  }
+
+  .fondo-icon {
+    width: 65px;
+    margin: 0px 10px;
+  }
+
+  .fondo-icon-flecha {
+    width: 36px;
+    height: 36px;
+    margin: 0px 10px;
+  }
+}
+
+/*TAMAÑO SMARTPHONE*/
+@media (max-width: 480px) {
+  .img-paisaje {
+    width: 85%;
+    height: 300px;
+  }
+
+  .informacion h1 {
+    font-size: 24px;
+  }
+
+  .informacion h2 {
+    font-size: 10px;
+  }
+
+  .informacion span {
+    font-size: 10px;
+  }
+
+  .icon-ir {
+    width: 25px;
+    height: 25px;
+    transform: translate(92px, 11px);
+  }
+
+  .icon {
+    width: 20px;
+    height: 20px;
+  }
+
+  .icon-contenido {
+    justify-content: space-between;
+  }
+}
+
+
+.btn-primary-outline {
+  background-color: #ffffff;
+  opacity: 0.4;
+  border-color: #ffffff;
+}
+
+.grid{
+  /*background-image: url("/home/fernando/Desktop/Vfinal/img/header.png"), url("/home/fernando/Desktop/Vfinal/img/fidel.png");*/
+  height: 400px;
+  color: #f3c81e;
+}
+
+/* Owl Carousel  */
+.owl-prev span, .owl-next span {
+  color: #8199A3;
+}
+
+.owl-prev span:hover, 
+.owl-next span:hover {
+  color: #8199A3;
+}
+
+.owl-prev, .owl-next {
+  position: absolute;
+  top: 0;
+  height: 100%;
+}
+
+.owl-prev {
+  left: 7px;
+}
+
+.owl-next {
+  right: 7px;
+}
+/* removing blue outline from buttons */
+button:focus, button:active {
+ outline: none;
+}
+
