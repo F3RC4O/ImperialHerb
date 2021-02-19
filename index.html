@@ -13,8 +13,9 @@
 <body> 
 <section id="modal">
     <!-- Modal -->
-<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered " role="document">
+<div class="modal fade " id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true" data-backdrop="static" 
+data-keyboard="false">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
       <div class="modal-content bg-imperial">
         <div class="modal-header text-center">
           <h1 class="modal-title w-100 blanco" id="exampleModalLongTitle">IMPERIAL HERB</h1>
@@ -22,8 +23,8 @@
             <span aria-hidden="true">&times;</span>
           </button>
         </div>
-        <div class="modal-body justify-content-center w-100">
-          <h3 class="blanco">ARE YOU 21 YEARS OF AGE OLDER?</h3>
+        <div class="modal-body justify-content-center">
+          <h3 class="blanco " style="text-align: center; margin-top:70px">ARE YOU 21 YEARS OF AGE OLDER?</h3>
         </div>
         <div class="modal-footer justify-content-center">
             <a href="#"><h3 class="font-weight-bold blanco mr-4" data-dismiss="modal">YES</h3></a>
@@ -65,11 +66,7 @@
             </ul>
             
             
-            <div class="mr-5">
-              <div class="mr-5">
-                <a class="navbar-brand d-none d-lg-block mr-5" href="#">Imperial Herb</a>
-              </div>
-            </div>
+            <a class="navbar-brand d-none d-lg-block" href="#">Navbar</a>
 
             
             
@@ -77,7 +74,10 @@
               <li class="nav-item">
                 <a class="nav-link" href="#"><i class="fas fa-lg fa-shopping-cart"></i></a>
               </li>
-              <li class="nav-item">
+              <li class="navbar-nav ml-2">
+                  <div class="lineavertical"></div>
+              </li>
+              <li class="nav-item ml-2">
                 <button style="border-radius: 60px;" type="button" class="btn btn-primary-outline btn-sm mt-1">Shop now</button>
               </li>
             </ul>
@@ -91,8 +91,8 @@
     <div class="container h-100 align-items-center">
       <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
-          <h1 class="font-weight-lighter blanco fuente-imperial">IMPERIAL HERB</h1>
-          <h1 class="font-weight-bold blanco">LOS ANGELES</h1>
+          <h1 class="font-weight-lighter blanco fuente-imperial display-1">IMPERIAL HERB</h1>
+          <h1 class="font-weight-bold blanco ">LOS ANGELES</h1>
           <button type="button" class="btn btn-primary-outline btn-lg">Shop now</button>
         </div>
       </div>
@@ -100,28 +100,22 @@
   </header>
 </section>
 
-<section id="carrusel" class="mt-3 mb-3">
+<section id="carrusel" class=" mb-3">
     <div class="container-fluid bg-imperial2">
       <div class="row align-items-center">
         <div class="col-lg-12 mt-3 aling-self-center text-center">
-          <h1 font-weight-bold blanco >NEWEST STRAINS</h1>
+          <h1 class="font-weight-bold blanco display-3">NEWEST STRAINS</h1>
         </div>
       </div>
       
       <div class="row align-items-center">
           <div class="col-12 col-carousel">
               <div class="owl-carousel carousel-main">
-                  <div class="grid d-flex flex-column align-items-center justify-content-center"><img class="img-responsive" src="/home/fernando/Desktop/Vfinal/img/header.png" alt=""><h5 class="text-center logoFont">Slide 1</h5>
+                  <div class="grid d-flex flex-column align-items-center justify-content-center"><img class="img-responsive" src="/home/fernando/ImperialHerb/img/Category.png" alt="Category" style="max-width:50%;width:auto;height:auto;"><h5 class="text-center logoFont">Imperial 1</h5>
                   </div>
-                  <div class="grid d-flex flex-column align-items-center justify-content-center"><img class="img-responsive" src="/home/fernando/Desktop/Vfinal/img/header.png" alt=""><h5 class="text-center logoFont">Slide 2</h5>
+                  <div class="grid d-flex flex-column align-items-center justify-content-center"><img class="img-responsive" src="/home/fernando/ImperialHerb/img/Category-2.png" alt="Category" style="max-width:50%;width:auto;height:auto;"><h5 class="text-center logoFont">Imperial 2</h5>
                   </div>
-                  <div class="grid d-flex flex-column align-items-center justify-content-center"><img class="img-responsive" src="/home/fernando/Desktop/Vfinal/img/header.png" alt=""><h5 class="text-center logoFont">Slide 3</h5>
-                  </div>
-                  <div class="grid d-flex flex-column align-items-center justify-content-center"><img class="img-responsive" src="/home/fernando/Desktop/Vfinal/img/header.png" alt=""><h5 class="text-center logoFont">Slide 4</h5>
-                  </div>
-                  <div class="grid d-flex flex-column align-items-center justify-content-center"><img class="img-responsive" src="/home/fernando/Desktop/Vfinal/img/header.png" alt=""><h5 class="text-center logoFont">Slide 5</h5>
-                  </div>
-                  <div class="grid d-flex flex-column align-items-center justify-content-center"><img class="img-responsive" src="/home/fernando/Desktop/Vfinal/img/header.png" alt=""><h5 class="text-center logoFont">Slide 6</h5>
+                  <div class="grid d-flex flex-column align-items-center justify-content-center"><img class="img-responsive" src="/home/fernando/ImperialHerb/img/Category-3.png" alt="Category" style="max-width:50%;width:auto;height:auto;"><h5 class="text-center logoFont">Imperial 3</h5>
                   </div>
               </div>
           </div>
@@ -131,11 +125,11 @@
 <div class="container-fluid mb-lg-5 mt-lg-5">
     <div class="row justify-content-center">
       <div class="col-lg-12 mt-3 aling-self-center text-center">
-        <h1>PRODUCTS</h1>
+        <h1 class="font-weight-bold display-3">PRODUCTS</h1>
       </div>
         <div class="col-lg-4 mt-3">
             <div class="card border-0 rounded-0">
-                <img class="img-fluid rounded mx-auto d-block" src="img/fidel.png" alt="fidel" width="200" height="200">
+                <img class="img-fluid rounded mx-auto d-block" src="/home/fernando/ImperialHerb/img/Category.png" alt="fidel" width="200" height="200">
             </div> 
             <div class="card-img-overlay row justify-content-center">
                 <div class="align-self-center mb-lg-5">
@@ -145,7 +139,7 @@
         </div>
         <div class="col-lg-4 mt-3">
             <div class="card border-0 rounded-0">
-                <img class="img-fluid rounded mx-auto d-block" src="img/fidel.png" alt="fidel" width="200" height="200">
+                <img class="img-fluid rounded mx-auto d-block" src="/home/fernando/ImperialHerb/img/Category-2.png" alt="fidel" width="200" height="200">
             </div> 
             <div class="card-img-overlay row justify-content-center">
                 <div class="align-self-center mb-lg-5">
@@ -155,7 +149,7 @@
         </div>
         <div class="col-lg-4 mt-3">
             <div class="card border-0 rounded-0">
-                <img class="img-fluid rounded mx-auto d-block" src="img/fidel.png" alt="fidel" width="200" height="200">
+                <img class="img-fluid rounded mx-auto d-block" src="/home/fernando/ImperialHerb/img/Category-3.png" alt="fidel" width="200" height="200">
             </div> 
             <div class="card-img-overlay row justify-content-center">
                 <div class="align-self-center mb-lg-5">
@@ -166,17 +160,17 @@
     </div>
 </div>
 </section>
-<section id="instagram" class="mb-5">
+<section id="instagram" >
     <div class="redes-sociales">
         <div class="imagen">
           <img class="img-paisaje" src="img/fidel.png" />
         </div>
         <div class="informacion">
           <div class="info-contenido">
-            <h1>INSTAGRAM</h1>
-            <h2>FOLLOW OUR PRODUCTS AND DEALS</h2>
-            <hr />
-            <span>LEARN MORE</span>
+            <h1 class="font-weight-bold blanco">INSTAGRAM</h1>
+            <h2 class="font-weight-bold blanco">FOLLOW OUR PRODUCTS AND DEALS</h2>
+            <hr style="height: 2px; background-color: #ffffff;"/>
+            <span class="font-weight-bold blanco">LEARN MORE</span>
             <a href=""><img class="icon-ir" src="img/ir.png" /></a>
           </div>
         </div>
@@ -218,8 +212,8 @@
                     </div>
                     <div class="col-lg-6 justify-content-center">
                         <h1 class="font-weight-bold blanco">OFFICE HOURS</h1>   
-                        <h2>MONDAY-SUNDAY</h2>
-                        <h2>11:00AM - 9:00PM</h2>
+                        <h2 class="font-weight-bold blanco">MONDAY-SUNDAY</h2>
+                        <h2 class="font-weight-bold blanco">11:00AM - 9:00PM</h2>
                     </div>
                 </div>
                 <div class="row justify-content-center">
@@ -236,10 +230,10 @@
             </div>
         </div>
         <div class="row mt-4">
-          <div class="col-lg-6">
+          <div class="col-md-12 col-lg-6">
             <h3 class="font-weight-bold blanco">Terms of use | Legal disclaimers</h3> 
           </div>
-          <div class="col-lg-6 text-right">
+          <div class="col-md-12 col-lg-6 text-right">
             <h3 class="font-weight-bold blanco"> © Imperial herb USA</h3> 
           </div>
         </div>

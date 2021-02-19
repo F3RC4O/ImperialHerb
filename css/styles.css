@@ -1,3 +1,10 @@
+.modal-content {
+  height: auto;
+  min-height: 400px !important;
+  border-radius: 0;
+  
+}
+
 .masthead {
   height: 100vh;
   min-height: 500px;
@@ -118,6 +125,9 @@ fieldset[disabled] .btn-imperial.active {
     background-position: center;
     background-repeat: no-repeat;
   }
+  .lineavertical{
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -142,7 +152,8 @@ fieldset[disabled] .btn-imperial.active {
 #instagram {
   margin-bottom: 10px;
   margin-top: 10px;
-  padding: 0px;
+  padding-top: 30px;
+  padding-bottom: 50px;
   box-sizing: border-box;
 }
 
@@ -378,4 +389,11 @@ fieldset[disabled] .btn-imperial.active {
 button:focus, button:active {
  outline: none;
 }
-
+.lineavertical{
+  width: 1px; 
+  background-color: #ffffff; 
+  height: 100%; 
+  float: left; 
+  border: 1px ridge #ffffff; 
+  border-radius: 1px;
+}
