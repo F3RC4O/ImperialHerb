@@ -6,9 +6,10 @@
 }
 
 .masthead {
-  height: 100vh;
-  min-height: 500px;
-  background-image: url("/home/fernando/Desktop/Vfinal/img/header.png");
+  margin-top: 10%;
+  height: 75vh;
+  min-height: 400px;
+  background-image: url("/home/fernando/ImperialHerb/img/header.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -26,7 +27,17 @@
 }
 .bg-imperial-menu{
   background-color: #183F53;
-  padding-bottom: 60px;
+  padding-bottom: 3.5%;
+  transition: 0.1s ease-in-out;
+  -webkit-transition: 0.1s ease-in-out;
+}
+
+.bg-imperialscroll{
+  background-color: #183F53;
+  transition: 0.5s ease-in-out;
+  -webkit-transition: 0.5s ease-in-out;
+
+
 }
 
 .btn-resp{
@@ -128,6 +139,9 @@ fieldset[disabled] .btn-imperial.active {
   .lineavertical{
     display: none;
   }
+  .footer12{
+    text-align: center !important;
+  }
 }
 
 @media (max-width: 768px) {
@@ -145,6 +159,21 @@ fieldset[disabled] .btn-imperial.active {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+  }
+}
+@media (max-width: 575px) {
+  .ajustaboton{
+    margin-top: 4px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 639px) {
+  .ajustatextoproducto{
+    margin-top: -95px !important;
+  }
+  .margenarribaproducto{
+    margin-top: 15% !important;
   }
 }
 
@@ -263,6 +292,7 @@ fieldset[disabled] .btn-imperial.active {
   .redes-sociales {
     flex-direction: column;
     height: auto;
+    padding-top: 5%;
   }
 
   .imagen {
@@ -357,7 +387,7 @@ fieldset[disabled] .btn-imperial.active {
 }
 
 .grid{
-  /*background-image: url("/home/fernando/Desktop/Vfinal/img/header.png"), url("/home/fernando/Desktop/Vfinal/img/fidel.png");*/
+
   height: 400px;
   color: #f3c81e;
 }
@@ -396,4 +426,8 @@ button:focus, button:active {
   float: left; 
   border: 1px ridge #ffffff; 
   border-radius: 1px;
+}
+
+.margenarriba{
+  margin-top: 10%;
 }
